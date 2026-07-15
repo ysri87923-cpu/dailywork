@@ -1,4 +1,4 @@
-public class NumberOfSteps {
+public class Reduceanumber {
     public int numberOfSteps(int num) {
         int steps = 0;
         while (num > 0) {
@@ -13,7 +13,7 @@ public class NumberOfSteps {
     }
 
     public static void main(String[] args) {
-        NumberOfSteps obj = new NumberOfSteps();
+        Reduceanumber obj = new Reduceanumber();
         int num = 14;
         int result = obj.numberOfSteps(num);
         System.out.println("Input: " + num);
